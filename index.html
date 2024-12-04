@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MARK SHEET</title>
+</head>
+ 
+<body>
+    <div class="htht"> 
+    <h1>MARK SHEET</h1>
+    
+    <!--English-->
+    <label for="enTotal">
+        Total Number of English :  <input type="number" id="enTotal">   
+    </label>
+    <br>
+    <br>
+     
+    <label for="enObt">
+        Obtained Number of English :  <input type="number" id="enObt">    
+    <br>
+    <br>
+    
+    <!--Urdu-->
+    <label for="urTotal">
+        Total Number of Urdu :  <input type="number" id="urTotal">
+    </label>
+    <br>
+    <br>
+     
+    <label for="urObt">
+        Obtained Number of Urdu :  <input type="number" id="urObt">
+    </label>
+    <br>
+    <br>
+
+    <!--Math-->
+      <label for="maTotal">
+          Total Number of Math :  <input type="number" id="maTotal">
+      </label>
+      <br>
+      <br>
+       
+      <label for="maObt">
+          Obtained Number of Math :  <input type="number" id="maObt">
+      </label>
+      <br>
+      <br>
+
+      <!--Biology-->
+    <label for="biTotal">
+        Total Number of Biology :  <input type="number" id="biTotal">
+    </label>
+    <br>
+    <br>
+     
+    <label for="biObt">
+        Obtained Number of BIology :  <input type="number" id="biObt">
+    </label>
+    <br>
+    <br>
+
+    <!--Chemistry-->
+    <label for="chTotal">
+        Total Number of Chemistry :  <input type="number" id="chTotal">
+    </label>
+    <br>
+    <br>
+  
+    <label for="chObt">
+        Obtained Number of Chemistry :  <input type="number" id="chObt">
+    </label>
+    <br>
+    <br>
+     
+    <!--Physic-->
+    <label for="phyTotal">
+        Total Number of Physic :  <input type="number" id="phyTotal">
+    </label>
+    <br>
+    <br>
+     
+    <label for="phyObt">
+        Obtained Number of Physic :  <input type="number" id="phyObt">
+    </label>
+    <br>
+    <br>
+    <br>
+ <!--Button-->
+    <button   onclick="checkout()">  Check Result   </button>
+<br>
+<br><br>
+<!--sction 2-->
+
+ 
+    <h1>RESULT</h1>
+
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Total</th>
+            <th>Obtained</th>
+            <th>Percentage</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <th>English</th>
+            <td id="showTotalen"></td>
+            <td id="showObtaineden"></td>
+            <td id="showPercentageen"></td>
+            <td id="showGradeen"></td>
+        </tr>
+
+        <tr>
+            <th> Urdu</th>
+            <td id="showTotalur"></td>
+            <td id="showObtainedur"></td>
+            <td id="showPercentageur"></td>
+            <td id="showGradeur"></td>
+        </tr>
+      
+        <tr>
+            <th>Math</th>
+            <td id="showTotalma"></td>
+            <td id="showObtainedma"></td>
+            <td id="showPercentagema"></td>
+            <td id="showGradema"></td>
+        </tr>
+        <tr>
+            <th>Biology</th>
+            <td id="showTotalbi"></td>
+            <td id="showObtainedbi"></td>
+            <td id="showPercentagebi"></td>
+            <td id="showGradebi"></td>
+        </tr>
+        
+        
+        <tr>
+            <th>Chemistry</th>
+            <td id="showTotalch"></td>
+            <td id="showObtainedch"></td>
+            <td id="showPercentagech"></td>
+            <td id="showGradech"></td>
+        </tr>
+        
+        <tr>
+            <th>Physic</th>
+            <td id="showTotalphy"></td>
+            <td id="showObtainedphy"></td>
+            <td id="showPercentagephy"></td>
+            <td id="showGradephy"></td>
+        </tr>
+        
+        <tr>
+            <th>Overall</th>
+            <td id="showTotalAll"></td>
+            <td id="showObtainedAll"></td>
+            <td id="showPercentageAll"></td>
+            <td id="showGradeAll"></td>
+        </tr>
+   
+    </table>
+ 
+ 
+ 
+ 
+  <script src="script.js"></script>
+ 
+
+      
+</body>
+</html>
